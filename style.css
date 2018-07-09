@@ -1,0 +1,36 @@
+.action{
+    margin: 3px;
+}
+
+
+
+
+.gifdiv{
+    float: left;
+    margin: 3px;
+}
+#copyright{
+	font-size: 14px;
+}
+div#footer {
+	clear: both;
+	margin-top: 40px;
+	position: center;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+}
+
+.container {
+	background-color: #fff;
+	opacity: 0.8;
+	padding: 20px;
+}
+
+* {
+	box-sizing: border-box;
+}
+img { 
+    height: 150px;
+    width: 150px;
+}

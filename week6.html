@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            Search 
+        </title>
+       
+    </head>
+    <style>
+    .btn{
+        margin:10px;
+        padding-left:50px;
+    }
+    #gif-form{
+        padding-left:400px;
+    }
+    #search{
+        padding-left:70px;
+
+    }
+    #action-input{
+        margin-left:55px;
+    }
+    </style>
+   
+     <body>
+        <!-- header -->
+            <div class="container text-center">
+                <div class = "row">
+                    <div class = "col-lg-12 col-md-12 col-sm-6">
+                            <div class="jumbotron">
+                      <h1 class ="text-center">Giphy Search</h1>
+                </div>
+                    </div>   
+            </div>
+        </div>
+        <!-- buttons -->
+         <div id = "gifbuttonsviews" class ="container">
+
+         </div>
+         
+         <!-- main -->
+
+         <div class = "container">
+             <div class = "row">
+                 <div class = "col-sm-6 col-md-6 col-lg-6">
+                     <div id = "gifviews">
+
+                     </div>
+                 </div>
+             </div>
+        </div>
+         
+        <!-- Action Submission Form -->
+        <div class ="container">
+            <div class ="row">
+                <div class =" col-lg-12 col-md-6 col-sm-6">
+                    <div class="jumbotron">
+                    <form id ="gif-form" role ="form">
+                        <h3 id="search"><legend>Search Here</legend></h3>
+                        
+                        <div class ="form group">
+                             
+                             <input type="text" id="action-input">
+                         </div>
+                        
+                         <input id="addGif" type="submit" value="Add your Giphy" class="btn btn-primary">
+                         <input id="removeGif" type="submit" value="Remove Giphy" class="btn btn-danger">
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    <footer>
+        <div id="footer" class="container">
+            <h4 id="copyright">&copy; Copyright 2018 Anil</h4>
+        </div>
+    </footer>
+         
+        
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css">
+      <script type="text/javascript" src="logic.js"></script> 
+    </body>
+
+</html>
