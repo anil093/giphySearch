@@ -1,4 +1,4 @@
-#GiphySearch
+<h1>GiphySearch</h1>
 
 <h1>Functionality</h1>
 The application utilizes the GIPHY API to search for GIFs using pre-generated search terms and user-generated search terms.
